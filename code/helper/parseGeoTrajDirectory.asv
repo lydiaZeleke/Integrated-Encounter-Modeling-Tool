@@ -3,7 +3,7 @@ function [output,listing] = parseGeoTrajDirectory(inDir, usecase)
 % SPDX-License-Identifier: BSD-2-Clause
 
 % Input handling
-if nargin < 1; inDir = [getenv('INTEGRATED_ENC_DIR') filesep 'code' filesep 'sUAS' filesep 'data' filesep 'waypoints']; end
+if nargin < 1; inDir = [getenv('INTEGRATED_ENC_DIR') filesep 'code' filesep 'sUAS' filesep 'data' f]; end
 if nargin < 2; usecase = 'all'; end
 
 % Input directories of sUAS trajectories
