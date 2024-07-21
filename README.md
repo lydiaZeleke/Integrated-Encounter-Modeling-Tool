@@ -22,7 +22,6 @@ Install the following packages according to the instructions provided in their r
 
 Before activating the encounter generation process, execute the following command in the main directory to configure the project settings:
 
-```bash
 matlab -r "run setup_tool.m"
 
 **Python Setup**
