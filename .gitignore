@@ -1,0 +1,23 @@
+# Ignore all .slxc files
+*.slxc
+
+# Ignore specific subdirectories
+/output/
+/code/LargeUAS/machineLearningAnalysis/logs/
+/versatilityAssessment/data/
+/versatilityAssessment/output/
+
+# Ignore all files in a specific subdirectory but not the subdirectory itself
+
+
+# Ignore all .log files in any directory
+*.log
+
+# Ignore all .tmp files in any directory
+*.tmp
+
+# Ignore all files in the temp directory
+/temp/
+
+# Do not ignore the library directory
+!/library/
