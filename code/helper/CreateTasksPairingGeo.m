@@ -32,7 +32,6 @@ switch usecase
              anchors = data.anchors;
         else
             % Generate if it doesn't exist
-            iso_3166_2 = {'US-CO';'US-HI';'US-KS';'US-MA';'US-MS';'US-NC';'US-ND';'US-NV';'US-NY'};
             iso_3166_2 = {'US-MA'};
             for ii=iso_3166_2'
                 data = preallocAnchors( ii{1}, anchorRange_nm, '', false);
@@ -65,6 +64,17 @@ switch usecase
             else
                 anchors = [anchors; data(data.num_geospatial > 0,:)];
             end
+
+            %% Replace trajectory location with the correct local directory %%
+            currentDir = pwd;
+            newBasePath = fullfile(currentDir, 'code', 'sUAS', 'data', 'waypoints');
+            
+            % Replace the old path with the new path in the files column
+            oldBasePath = '/home/lydiazeleke/Desktop/encounter_gen_tool/em-model-geospatial/output/trajectories';
+            for i = 1:height(anchors)
+                anchors.files{i} = strrep(anchors.files{i}, oldBasePath, newBasePath);
+            end
+  
         end 
 end
 

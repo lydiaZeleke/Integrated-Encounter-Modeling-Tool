@@ -2,7 +2,7 @@
 *.slxc
 
 # Ignore specific subdirectories
-/output/
+/output/encounter_set/Own_LUAS/
 /code/LargeUAS/machineLearningAnalysis/logs/
 /versatilityAssessment/data/
 /versatilityAssessment/output/
