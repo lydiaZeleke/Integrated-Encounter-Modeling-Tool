@@ -1,14 +1,13 @@
 # Code
 
-Software developed by the aerospace encounter models team.
+ This part of the tool is heavily based on the software developed by the aerospace encounter models team. We have made some changes to fit our requirements, but the License credit goes out to the team at MIT LL. 
 
 | Directory        |  Description |
 | :-------------| :--  |
 anchor | Functions primarily related to generating geodetic anchors
 encounter | Functions primarily related to identifying conflicts and encounters
-helper | Miscellaneous helper functions
-plot | Plotting functions
-trajectory | Functions related to parse or manipulating track trajectories
+other files | Miscellaneous helper functions
+
 
 ## Distribution Statement
 
