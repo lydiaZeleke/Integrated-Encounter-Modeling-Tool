@@ -1,8 +1,7 @@
-# Integrated Encounter Modeling Tool
-
+# TIMES: Tool for Integrated Modeling and Encounter Simulation
 ## Description
 
-This repository hosts the Integrated Encounter Modeling Tool, an open-source simulation platform designed for robust Detect-and-Avoid (DAA) system evaluations. Developed at North Carolina Agricultural and Technical State University, this tool facilitates the generation of versatile (diverse and realistic) encounter scenarios between various aircraft classes to test and improve DAA systems. Leveraging extensive geospatial data and multiple flight models, the tool supports a comprehensive analysis of UAS integration into the National Airspace System.
+This repository hosts the Integrated Modeling and Encounter Simulation Tool, an open-source simulation platform designed for robust Detect-and-Avoid (DAA) system evaluations. Developed at North Carolina Agricultural and Technical State University, this tool facilitates the generation of versatile (diverse and realistic) encounter scenarios between various aircraft classes to test and improve DAA systems. Leveraging extensive geospatial data and multiple flight models, the tool supports a comprehensive analysis of UAS integration into the National Airspace System.
 
 ## Setup Instructions
 
