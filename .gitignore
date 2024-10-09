@@ -10,8 +10,9 @@
 # Ignore all files in a specific subdirectory but not the subdirectory itself
 
 
-# Ignore all .log files in any directory
+# Ignore all .log and .asv files in any directory
 *.log
+*.asv
 
 # Ignore all .tmp files in any directory
 *.tmp
