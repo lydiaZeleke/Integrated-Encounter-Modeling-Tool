@@ -99,10 +99,9 @@ function [sUAS_state, ref_point, sUAS_type] =  sUASDynamicsModeling(track,lat0_d
     modelPath = fileparts(which(model_name));
     
     % Create a configuration set object and attach it to the model
-    cs = getActiveConfigSet(model_name);
-    set_param(cs, 'CacheFolder', modelPath);
-    set_param(cs, 'CodeGenFolder', modelPath);
-
+    cfg = Simulink.fileGenControl('getConfig');
+    cfg.CacheFolder = modelPath;
+    cfg.CodeGenFolder = modelPath;
 
     set_param(model_name, 'StopTime', num2str(sim_stop));
 
